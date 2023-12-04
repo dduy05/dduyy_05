@@ -1,0 +1,128 @@
+#shark{
+    left: 400px ;
+    top: 400px;
+    position: absolute;
+    animation-name:Shark ;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Shark{
+    0% {left: 150px;top: 530px; }
+    20% {left: 350px;top: 530px; }
+    40% {left: 900px;top:530px ; }
+    50% {left: 1100px;top:560px ; }
+    60% {left: 1300px;top:500px ; }
+    80% {left: 500px;top:450px ; }
+    100% {left: 150px;top:300px ; transform: scaleX(-1);}
+
+}
+#turtle{
+    left: 100px ;top: 400px;
+    position: absolute;
+    animation-name:Turtle ;
+    animation-duration: 18s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+@keyframes Turtle{
+    0% {left: 100px;top:400px ; }
+    20% {left: 300px;top:400px ; }
+    40% {left: 500px;top:300px ; }
+    50% {left: 600px;top:50px ; }
+    60% {left: 1300px;top:100px ; }
+    80% {left: 500px;top:200px ; }
+    100% {left: 100px;top:400px ; transform: scaleX(-1);}
+}
+#goldFishSchool{
+    left: 100px ;top: 400px;
+    position: absolute;
+    animation-name:GoldFishSchool;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state:inherit;
+}
+@keyframes GoldFishSchool{
+    0% {left: 150px;top: 530px; }
+    20% {left: 350px;top: 530px; }
+    40% {left: 900px;top:530px ; }
+    50% {left: 1100px;top:560px ; }
+    60% {left: 1200px;top:500px ; }
+    80% {left: 500px;top:450px ; }
+    100% {left: 150px;top:300px ; transform: scaleX(-1);}
+
+}
+#diver1{
+    right: 100px;
+    top: 100px;
+    position: absolute;
+    animation-name:Diver1 ;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state:running;
+}
+@keyframes Diver1{
+    0% {left:100px;top:100px ; }
+    20% {left: 130px;top: 280px; }
+    40% {left: 150px; top: 380px; }
+    50% {left: 170px; top:480px;}
+    60% {left: 150px;top:380px ; }
+    80% {left: 130px; top: 280px; }
+    100% {left: 100px;top:100px ; transform: scaleX(-1);}
+}
+#diver2{
+    left: 100px ;top: 400px;
+    position: absolute;
+    animation-name:Diver2 ;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state:running;
+}
+@keyframes Diver2{
+    0% {left: 50px;top:400px ; }
+    20% {left: 200px; }
+    40% {left: 300px;}
+    50% {left: 600px; }
+    60% {left: 600px;}
+    80% {left: 500px; }
+    100% {left: 100px;top:400px ; transform: scaleX(-1);}
+}
+#diver3{
+    left: 100px ;top: 400px;
+    position: absolute;
+    animation-name:Diver3;
+    animation-duration: 11s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state:running;
+}
+@keyframes Diver3{
+    0% {left: 50px;top:300px ; }
+    20% {left: 200px;top:300px ; }
+    40% {left: 300px;top:300px ; }
+    50% {left: 800px;top:50px ; }
+    60% {left: 900px;top:100px ; }
+    80% {left: 1000px;top:200px ; }
+    100% {left: 1200px;top:400px ; transform: scaleX(-1);}
+}
+body{
+    background:  url(./imges/shiva-arkaplann.jpg) ;
+}
+#faintSchool{
+    left: 100px ;top: 400px;
+    position: absolute;
+    animation-name:faintSchool;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state:running;
+}
+@keyframes faintSchool{
+    from {top: 600px;}
+  to {top: 0px;}
+}
