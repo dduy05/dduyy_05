@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif ;
+}
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width:100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background-color: #fff;
+    display:grid ;
+    grid-template-columns: 2fr 3fr;
+    box-shadow: 0 35px 55px black(0,0,0,0.1);
+    margin-top: 40px;
+
+}
+.container .left{
+     position: relative;
+     background:#008080;
+     padding: 40px;
+     color: #fff;
+
+}
+.profile{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
+}
+.profile .imgavatar{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profile .imgavatar img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+
+}
+.aboutme p{
+    padding-top: 10px;
+    
+    
+
+}
+.contactus ul{
+    padding-top: 10px;
+}
+.title{
+    padding-top: 15px;
+}
+.referenceperson p{
+    padding-top: 10px;
+}
+.skills ul{
+    padding-top: 10px;
+}
+.skills .percent{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background:greenyellow;
+    display: block;
+    margin-top: 5px;
+
+}
+.skills .percent div{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background: darkorchid;
+
+
+}
+.right .vitri h4{
+    padding-top: 40px;
+    font-size: 30px;
+}
+.right .vitri h3{
+    padding-top: 60px;
+    font-size: 20px;
+}
+
+
+
+.container .right{
+    position: relative;
+    background: white;
+    padding: 40px;
+    text-align: left;
+
+}
+.container .right h1{
+    text-align: center;
+    font-size:60px;
+}
+.interest{
+    padding-top: 10px;
+}
+.interest ul{
+    font-size: 18px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.interest ul li{
+    color: #333;
+    font-weight: 500;
+    margin: 10px 0;
+}
+.interest ul li svg{
+    color: #03a9f4;
+    font-size: 18px;
+    width:20px ;
+    
+}
+
+
+
+    
+
+
+
+
